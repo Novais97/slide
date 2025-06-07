@@ -121,7 +121,7 @@
 
     #slide5:checked ~ .slides {
       margin-left: -400%;
-    } 
+    }
   @media (max-width: 600px) {
   header {
     padding: 10px 20px;
