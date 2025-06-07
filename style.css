@@ -121,4 +121,13 @@
 
     #slide5:checked ~ .slides {
       margin-left: -400%;
-    }
+    } 
+@media (max-width: 480px) {
+  .menu {
+    font-size: 1rem;
+  }
+
+  .slide-container {
+    height: 30vh;
+  }
+}
