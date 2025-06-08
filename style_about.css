@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+    header {
+      background: rgba(0, 0, 0, 0.1);
+      padding: 5px 50px;
+      display: flex;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+.back_ground {
+  height: 50vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(pexels-pixabay-90763.jpg);
+   }
+   .card-container{
+    
+    height:100%;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    background-color: rgba(114, 120, 126, 0.107);
+    margin: 0;
+ 
+    
+
+   }
+   .card-img{
+
+
+    padding:15px 15px;
+      width: 50%;
+      height:95vh;
+      background-image: url(importance_of_drinking_water.jpg);
+      background-size: cover;
+      display:flex;
+      margin:15px 25px;
+    
+    
+   }
+   .card-text {
+    background-color: #1650640e;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    color: #474545;
+    font-family: 'Open Sans', sans-serif;
+     margin:15px 25px;
+      width: 45%;
+      height:fit-content;
+     padding:2.5rem 4rem;
+      justify-content: center;
+  
+
+   }
+
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      align-items: center;
+    }
+
+    .header-font {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 2rem;
+      text-shadow: 
+        0 10px 5px rgba(0, 0, 0, 0.4),
+        0 2px 10px rgba(0, 0, 0, 0.2);
+    }
+
+.menu-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 25px;
+  padding: 0 30px;
+}
+    .menu {
+      text-decoration: none;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 1.3rem;
+      color: #000;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .menu:hover {
+      transform: scale(1.1);
+      color: #000;
+      text-shadow: 
+        0 10px 5px rgba(0, 0, 0, 0.4),
+        0 2px 10px rgba(0, 0, 0, 0.2);
+    }
+
+ 
+  @media (max-width: 762px) 
+  {
+    body{
+      box-sizing: border-box;
+    }
+    header {
+    padding: 10px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+     max-width: 100%;
+  overflow-x: hidden;
+  }
+  
+ 
+ 
+  .header-font {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+     max-width: 100%;
+  overflow-x: hidden;
+  }
+
+nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     max-width: 100%;
+  overflow-x: hidden;
+  }
+
+  .menu-cont {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+     max-width: 100%;
+  overflow-x: hidden;
+  }
+
+  .menu {
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+     max-width: 100%;
+  overflow-x: hidden;
+  }
+.card-container {
+    flex-direction: column;
+    align-items: center;
+     max-width: 100%;
+  overflow-x: hidden;
+  }
+
+  .card-img, .card-text {
+    width: 90%;
+    margin: 10px 0;
+    height: auto;
+   max-width: 100%;
+  overflow-x: hidden;
+        font-size: 1rem;
+    padding: 1.5rem;
+  }
+
+  .card-img {
+    height: 300px; /* Altura reduzida para imagem */
+     max-width: 100%;
+  overflow-x: hidden;
+  }
+  }
